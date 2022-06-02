@@ -1,0 +1,137 @@
+.becrumd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.becrumdtitle {
+    margin: 0;
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    color: #04004D;
+}
+
+.home-title {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #004DFF;
+    margin-top: 0;
+    margin-bottom: 16px;
+
+}
+
+.list-word {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.list-word-item {
+    width: calc(100% / 3 - 16px);
+    background: #FFFFFF;
+    box-shadow: 0px 7px 32px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin: 0 8px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list-word-index {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+
+    display: block;
+    letter-spacing: -0.05em;
+    color: #004DFF;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #BBCFFB;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.list-word-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #04004D;
+}
+
+.home-tap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-tap-title {
+    font-family: 'Clear Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #04004D;
+    max-width: 80%;
+
+}
+
+.icon-tab {
+    width: 48px;
+    height: 48px;
+}
+
+.home-footer {
+    padding: 27px 20px 36px;
+    background: #FFFFFF;
+    box-shadow: 0px -7px 64px rgba(0, 0, 0, 0.07);
+}
+
+.footer-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #04004D;
+    margin: 0;
+    margin-bottom: 28px;
+
+}
+
+.footer-button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 19px 0;
+    text-align: center;
+    background: #004DFF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
