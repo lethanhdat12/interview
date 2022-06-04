@@ -1,8 +1,6 @@
 
 const maxArray = (arr) => {
-    let sortArr = arr.map(item => item.toString() + "9z").sort().reverse();
-    let maxStr = sortArr.map(item => item.replace("9z", "")).join("");
-    return Number.parseInt(maxStr);
+    return arr;
 }
 
 const checkLengthArr = (arr, length) => {

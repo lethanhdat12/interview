@@ -18,8 +18,8 @@ export default function Home(props) {
                 <ul className='list-word'>
                     {
                         props.data24 ?
-                            props.data24.map((item) => (
-                                <li className='list-word-item'>
+                            props.data24.map((item , index) => (
+                                <li className='list-word-item' key={index}>
                                     <span className='list-word-index'>
                                         {item.index + 1}
                                     </span>
